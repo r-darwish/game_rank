@@ -1,0 +1,14 @@
+[package]
+name = "games"
+version = "0.1.0"
+authors = ["Roey Darwish Dror <roey.ghost@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.10.6"
+tokio = { version = "0.2", features = ["full"] }
+anyhow = "1.0.31"
+fehler = "1.0.0"
+scraper = "0.12.0"
